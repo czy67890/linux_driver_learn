@@ -6,7 +6,7 @@
 #include <linux/slab.h>
 #include <linux/io.h>
 
-#define LED_GPIO1_BASE_ADDR (0xFEC200000)
+#define LED_GPIO1_BASE_ADDR (0xFEC20000)
 #define GPIO1_MUX (0x0034 + LED_GPIO1_BASE_ADDR)
 #define GPIO1_IODIR (0x000C + LED_GPIO1_BASE_ADDR)
 #define GPIO1_DATA (0x0004 + LED_GPIO1_BASE_ADDR)
