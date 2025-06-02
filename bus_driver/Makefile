@@ -1,0 +1,1 @@
+obj-m := xdev.o xbus.o xdrv.o
