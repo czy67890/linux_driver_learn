@@ -97,6 +97,7 @@ static int __init led_dev_init(void)
 
     led_devs[0].va_ddr = ioremap(GPIO1_IODIR, 4);
     led_devs[0].va_dr = ioremap(GPIO1_DATA, 4);
+    printk("%p - %p", led_devs[0].va_ddr, led_devs[0].va_dr);
     led_devs[0].led_pin = 6;
     led_chrdev_class = class_create(THIS_MODULE, "collin_leds");
 

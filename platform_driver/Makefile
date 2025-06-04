@@ -1,0 +1,1 @@
+obj-m := led_platform_driver.o led_platform_device.o
