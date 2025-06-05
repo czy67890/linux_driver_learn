@@ -1,0 +1,1 @@
+obj-m := get_dts_info.o
