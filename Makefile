@@ -3,7 +3,8 @@ ARCH       := arm64
 CROSS_COMPILE := aarch64-linux-gnu-
 export ARCH CROSS_COMPILE
 
-MODULE_DIRS := $(CURDIR)/char_dev_exam $(CURDIR)/led_driver $(CURDIR)/bus_driver $(CURDIR)/platform_driver $(CURDIR)/devicetree
+MODULE_DIRS := $(CURDIR)/char_dev_exam $(CURDIR)/led_driver $(CURDIR)/bus_driver $(CURDIR)/platform_driver $(CURDIR)/devicetree \
+		       $(CURDIR)/devicetree_led	
 
 BUILD_DIR := /home/collin/shared
 
