@@ -1,0 +1,1 @@
+obj-m := pinctrl_led.o
